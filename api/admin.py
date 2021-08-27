@@ -1,7 +1,7 @@
 # admin.py
 # Admin Api 관리
 
-import owncast_api as api
+import api.owncast_api as api
 
 # Admin - Server status and broadcaster
 class Status():

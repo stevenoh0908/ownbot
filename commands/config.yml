@@ -1,0 +1,5 @@
+Commands:
+  # Down below, register your commands as following format:
+  # (Command): (Python Script Name as Str, without .py)
+  유하: 'autoGreetings'
+  방제변경: 'setStreamTitle'
