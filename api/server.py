@@ -1,7 +1,7 @@
 # server.py
 # Server API 관리
 
-import owncast_api as api
+import api.owncast_api as api
 
 class SocialHandle():
 

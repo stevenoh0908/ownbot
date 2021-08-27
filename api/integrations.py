@@ -1,7 +1,7 @@
 # integrations.py
 # Integrations API 관리
 
-import owncast_api as api
+import api.owncast_api as api
 
 # Integrations - Set the stream title
 def setStreamtitle(title):
