@@ -12,6 +12,7 @@ A self-hosted chat bot &amp; automatic moderator for [owncast](https://github.co
 - [ ] 방송일정
 - [ ] 자동인사
 - [ ] 출석체크
+- [ ] 비웃기 카운터
 
 #### 매니저 / Moderator
 - [ ] 채팅 쿨타임
