@@ -16,6 +16,9 @@ with open('commands.json') as f:
 with open('alias.json') as f:
     alias = json.load(f)
     pass
+for cmd in alias:
+    alias[cmd] = commands_without_alias[alias[cmd]]
+    pass
 commands = dict(commands_without_alias, **alias)
 
 # init default variables
