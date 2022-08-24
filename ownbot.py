@@ -24,7 +24,7 @@ app = Flask(__name__)
 def response():
     params = json.loads(request.get_data())
     print(params)
-    return
+    return jsonify(success=True)
 
 if __name__ == '__main__':
     app.run()
