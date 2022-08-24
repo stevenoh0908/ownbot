@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
 def response():
-    params = json.loads(request.get_data(), encoding='utf-8')
+    params = json.loads(request.get_data())
     print(params)
     pass
 
