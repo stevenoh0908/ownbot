@@ -16,7 +16,7 @@ with open('commands.json') as f:
 with open('alias.json') as f:
     alias = json.load(f)
     pass
-commands = commands_without_alias + alias
+commands = dict(commands_without_alias, **alias)
 
 # init default variables
 OWNCAST_URL = data_config['server_url'] + '/api/integrations/chat/send'
